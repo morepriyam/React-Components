@@ -1,0 +1,63 @@
+.card {
+   background-color: #ffffff;
+    color: #4F4F4F ;
+    width: 400px;
+    height: 430px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 2px 1px black;
+    display: flex;
+    flex-direction: column; 
+  }
+  .profiledown{
+    text-align: center;
+    flex-grow: 1;
+  }
+  .gradient {
+    background:linear-gradient(yellow,transparent);
+    background-color:#47E0DE;
+    flex: 0 0 160px; 
+  }
+
+  .profilepic {
+    border: 1px solid #242424;
+    margin-top: -75px;
+    padding: 3px;
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .nameandage {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    column-gap: 10px;
+  }
+  
+  .country {
+    padding: 10px;
+    color: green;
+  }
+
+  .description {
+    padding: 10px;
+    font-size: small;
+    font-weight: 100;
+  }
+  
+  .bottom {
+    font-size: small;
+    padding: 24px 40px 30px 40px;
+    border-top: 1px solid #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info {
+   text-align: center;
+  }
+  
+  b {
+    font-weight: 900;
+  }
