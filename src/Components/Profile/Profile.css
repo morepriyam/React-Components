@@ -1,4 +1,8 @@
 .card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
    background-color: #ffffff;
     color: #4F4F4F ;
     width: 400px;
