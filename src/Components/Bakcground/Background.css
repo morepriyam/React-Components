@@ -1,0 +1,47 @@
+
+.buttons { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 450px;
+    padding: 4px 6px 4px 6px;
+    box-shadow: 2px 1px 2px 1px yellow;
+    flex: 0 0 30px; 
+}
+button {
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 1px 1px #242424;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color:yellow;
+}
+
+.black {
+    color: white;
+    background-color:black;
+}
+
+.purple{
+    color: white;
+    background-color:purple;
+}
+
+.green {
+    color: white;
+    background-color:green;
+}
+.blue {
+    color: white;
+    background-color:blue;
+}
+.default {
+background-color: orange;
+}
