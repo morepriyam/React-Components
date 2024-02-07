@@ -1,0 +1,68 @@
+.cardWrap{
+    background-color: white;
+    width: 30rem;
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    border: 1px solid greenyellow;
+    box-shadow: 1px 2px 3px #242424;
+}
+
+.topWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameDiv {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.public{
+    border: 1px solid #242424;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px 8px;
+}
+
+.name {
+    font-weight: 700;
+    text-decoration: none;
+    color: #0A69DA;
+}
+.name:hover{
+    cursor: pointer;
+    text-decoration:underline ;
+}
+
+.desc {
+    padding-top: 9px;
+}
+
+
+.footer{
+    padding-top: 35px;
+    display:flex ;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.lang::before{
+    display: inline-block;
+    background-color: #3078C6;
+    content: " ";
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
