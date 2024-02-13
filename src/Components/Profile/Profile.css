@@ -13,8 +13,10 @@
     flex-direction: column; 
   }
   .profiledown{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    flex-grow: 1;
+    align-items: center;
   }
   .gradient {
     background:linear-gradient(yellow,transparent);

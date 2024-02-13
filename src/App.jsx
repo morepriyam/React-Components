@@ -1,17 +1,16 @@
-import Profile from "./Components/Profile/Profile";
-import "./App.css";
-import Background from "./Components/Bakcground/Background";
-import { useState } from "react";
-import Github from "./Components/Github/Github";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Components from "./pages/components";
+import Signup from "./pages/signup";
+
 function App() {
-  const [bgColor, setBgColor] = useState(
-    "linear-gradient(45deg, #FFA500, #FFD700, #FFA500, #FFD700)"
-  );
   return (
-    <div className="App" style={{ backgroundImage: bgColor }}>
-      <Profile />
-      <Background setBgColor={setBgColor} />
-      <Github/>
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/comp" element={<Components />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
